@@ -31,7 +31,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>co.example.challenge.Main</mainClass>
+                            <mainClass>co.example.challenge.paquete.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
