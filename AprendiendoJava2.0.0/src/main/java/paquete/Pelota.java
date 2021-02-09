@@ -1,8 +1,10 @@
 package paquete;
 
 public class Pelota {
+    //variables nativas de la clase
     float radio;
     float peso;
+    //constructores
     public Pelota(){
         radio=100;
         peso=250;
@@ -11,11 +13,19 @@ public class Pelota {
         this.radio=radio;
         this.peso=peso;
     }
+    //Termina Constructores
+
+    //metodos
     public float obtenerRadio(){
-        return radio;
+        return this.radio;
     }
     public float obtenerPeso(){
-        return peso;
+        return this.peso;
     }
-
+    public void patearPelota() {
+        System.out.println("Haz pateado la pelota");
+    }
+    public void atraparPelota(){
+        System.out.println("Haz atrapado la pelota");
+    }
 }
